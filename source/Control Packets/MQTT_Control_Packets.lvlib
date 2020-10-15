@@ -11,11 +11,11 @@
 	<Item Name="CONNACK.lvclass" Type="LVClass" URL="../CONNACK/CONNACK.lvclass"/>
 	<Item Name="PINGREQ.lvclass" Type="LVClass" URL="../PINGREQ/PINGREQ.lvclass"/>
 	<Item Name="PINGRESP.lvclass" Type="LVClass" URL="../PINGRESP/PINGRESP.lvclass"/>
-	<Item Name="PUBACK.lvclass" Type="LVClass" URL="../PUBACK/PUBACK.lvclass"/>
-	<Item Name="PUBCOMP.lvclass" Type="LVClass" URL="../PUBCOMP/PUBCOMP.lvclass"/>
 	<Item Name="PUBLISH.lvclass" Type="LVClass" URL="../PUBLISH/PUBLISH.lvclass"/>
+	<Item Name="PUBACK.lvclass" Type="LVClass" URL="../PUBACK/PUBACK.lvclass"/>
 	<Item Name="PUBREC.lvclass" Type="LVClass" URL="../PUBREC/PUBREC.lvclass"/>
 	<Item Name="PUBREL.lvclass" Type="LVClass" URL="../PUBREL/PUBREL.lvclass"/>
+	<Item Name="PUBCOMP.lvclass" Type="LVClass" URL="../PUBCOMP/PUBCOMP.lvclass"/>
 	<Item Name="SUBACK.lvclass" Type="LVClass" URL="../SUBACK/SUBACK.lvclass"/>
 	<Item Name="SUBSCRIBE.lvclass" Type="LVClass" URL="../SUBSCRIBE/SUBSCRIBE.lvclass"/>
 	<Item Name="UNSUBACK.lvclass" Type="LVClass" URL="../UNSUBACK/UNSUBACK.lvclass"/>

@@ -18,6 +18,7 @@
 		<Item Name="Helper Drop VIs" Type="Folder">
 			<Item Name="Drop_DecodeIncomingPacket.vi" Type="VI" URL="../Control Packets/Drop_DecodeIncomingPacket.vi"/>
 		</Item>
+		<Item Name="Create Packet (Poly).vi" Type="VI" URL="../Control Packets/Create Packet (Poly).vi"/>
 		<Item Name="MQTT_Control_Packets.lvlib" Type="Library" URL="../Control Packets/MQTT_Control_Packets.lvlib"/>
 		<Item Name="MQTT_Control_Packets_50.lvlib" Type="Library" URL="../Control Packets/MQTT_Control_Packets_50.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
