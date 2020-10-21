@@ -11,9 +11,9 @@ The control packets will be reused in the LabVIEW Open Source Project's MQTT Cli
 
 For those interested in their usage, please refer yourselves with the following projects currently in active development:
 
-https://github.com/LabVIEW-Open-Source/MQTT-Connection
-https://github.com/LabVIEW-Open-Source/MQTT-Connection-LocalQueue
-https://github.com/LabVIEW-Open-Source/MQTT-Connection-TCP
-https://github.com/LabVIEW-Open-Source/MQTT-Connection-Websockets
-https://github.com/LabVIEW-Open-Source/MQTT-Client
-https://github.com/LabVIEW-Open-Source/LV-MQTT-Broker
+* https://github.com/LabVIEW-Open-Source/MQTT-Connection
+* https://github.com/LabVIEW-Open-Source/MQTT-Connection-LocalQueue
+* https://github.com/LabVIEW-Open-Source/MQTT-Connection-TCP
+* https://github.com/LabVIEW-Open-Source/MQTT-Connection-Websockets
+* https://github.com/LabVIEW-Open-Source/MQTT-Client
+* https://github.com/LabVIEW-Open-Source/LV-MQTT-Broker
