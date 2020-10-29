@@ -5,20 +5,23 @@
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Property Name="NI.SortType" Type="Int">3</Property>
+	<Item Name="Acknowledgements" Type="Folder">
+		<Item Name="CONNACK.lvclass" Type="LVClass" URL="../CONNACK/CONNACK.lvclass"/>
+		<Item Name="PUBACK.lvclass" Type="LVClass" URL="../PUBACK/PUBACK.lvclass"/>
+		<Item Name="PUBREC.lvclass" Type="LVClass" URL="../PUBREC/PUBREC.lvclass"/>
+		<Item Name="PUBREL.lvclass" Type="LVClass" URL="../PUBREL/PUBREL.lvclass"/>
+		<Item Name="PUBCOMP.lvclass" Type="LVClass" URL="../PUBCOMP/PUBCOMP.lvclass"/>
+		<Item Name="SUBACK.lvclass" Type="LVClass" URL="../SUBACK/SUBACK.lvclass"/>
+		<Item Name="UNSUBACK.lvclass" Type="LVClass" URL="../UNSUBACK/UNSUBACK.lvclass"/>
+	</Item>
 	<Item Name="MQTTVersion.lvclass" Type="LVClass" URL="../MQTT_311/MQTTVersion.lvclass"/>
 	<Item Name="ControlPacket.lvclass" Type="LVClass" URL="../ControlPacket/ControlPacket.lvclass"/>
+	<Item Name="Ack.lvclass" Type="LVClass" URL="../Ack/Ack.lvclass"/>
 	<Item Name="CONNECT.lvclass" Type="LVClass" URL="../CONNECT/CONNECT.lvclass"/>
-	<Item Name="CONNACK.lvclass" Type="LVClass" URL="../CONNACK/CONNACK.lvclass"/>
 	<Item Name="PINGREQ.lvclass" Type="LVClass" URL="../PINGREQ/PINGREQ.lvclass"/>
 	<Item Name="PINGRESP.lvclass" Type="LVClass" URL="../PINGRESP/PINGRESP.lvclass"/>
 	<Item Name="PUBLISH.lvclass" Type="LVClass" URL="../PUBLISH/PUBLISH.lvclass"/>
-	<Item Name="PUBACK.lvclass" Type="LVClass" URL="../PUBACK/PUBACK.lvclass"/>
-	<Item Name="PUBREC.lvclass" Type="LVClass" URL="../PUBREC/PUBREC.lvclass"/>
-	<Item Name="PUBREL.lvclass" Type="LVClass" URL="../PUBREL/PUBREL.lvclass"/>
-	<Item Name="PUBCOMP.lvclass" Type="LVClass" URL="../PUBCOMP/PUBCOMP.lvclass"/>
-	<Item Name="SUBACK.lvclass" Type="LVClass" URL="../SUBACK/SUBACK.lvclass"/>
 	<Item Name="SUBSCRIBE.lvclass" Type="LVClass" URL="../SUBSCRIBE/SUBSCRIBE.lvclass"/>
-	<Item Name="UNSUBACK.lvclass" Type="LVClass" URL="../UNSUBACK/UNSUBACK.lvclass"/>
 	<Item Name="UNSUBSCRIBE.lvclass" Type="LVClass" URL="../UNSUBSCRIBE/UNSUBSCRIBE.lvclass"/>
 	<Item Name="DISCONNECT.lvclass" Type="LVClass" URL="../DISCONNECT/DISCONNECT.lvclass"/>
 </Library>
