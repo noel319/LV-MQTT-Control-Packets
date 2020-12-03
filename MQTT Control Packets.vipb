@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2019-04-01 18:34:00" Modified_Date="2020-10-29 10:36:16" Creator="normandinf" Comments="" ID="eeec6026fc8c2227995d3b3914bf65c7">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2019-04-01 18:34:00" Modified_Date="2020-12-03 08:10:56" Creator="normandinf" Comments="" ID="0b2b6b705728a369f5dda3f1bb4f8403">
   <Library_General_Settings>
     <Package_File_Name>LabVIEW_Open_Source_Project_lib_MQTT_Control_Packets</Package_File_Name>
-    <Library_Version>3.1.2.9</Library_Version>
+    <Library_Version>3.1.3.10</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>source</Library_Source_Folder>
     <Library_Output_Folder>.</Library_Output_Folder>
@@ -42,11 +42,7 @@ These classes can be used as the basis for client and server by providing a clea
       <Copyright/>
       <Packager/>
       <URL>https://github.com/LabVIEW-Open-Source/LV-MQTT-Control-Packets</URL>
-      <Release_Notes>Introduced a Ack control packet as an ancestor to all the ACK types of packets: 
-Connack, puback, pubrec, pubrel, pubcomp, suback, unsuback
-
-This has no impact on backward-compatibility, but it gives a stricter type for client and server that handle responses through subscriptions.
-</Release_Notes>
+      <Release_Notes>Fixed the password stream which was not length-prefixed</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -560,7 +556,7 @@ This has no impact on backward-compatibility, but it gives a stricter type for c
         <Path>source\Examples\Example_Local MQTT Communication.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>B00D94AA8D87BA54BA93203DC7F2E0AE</GUID>
+      <GUID>3C0558A5268227427895188D7987BEF0</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -623,7 +619,7 @@ This has no impact on backward-compatibility, but it gives a stricter type for c
         <Path>source\Control Packets\CONNACK\Read Session Present.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>CA5D73F88FA7F879EF846DBDA2CB1BB2</GUID>
+      <GUID>10DD282989DB5EEF49D0A02209317AC4</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -756,7 +752,7 @@ This has no impact on backward-compatibility, but it gives a stricter type for c
         <Path>source\Control Packets\CONNECT\getConnectFlags.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>35CA817FE93ACA835CEB804B7F86740E</GUID>
+      <GUID>8580FED80428CDD83B7F3B9BBA10F35A</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -987,7 +983,7 @@ This has no impact on backward-compatibility, but it gives a stricter type for c
         <Path>source\Control Packets\ControlPacket\Generate ID.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>0A534326B431A6DA9AF453554D2D7E1F</GUID>
+      <GUID>67DF483A1150FE986675DC01008BB697</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1022,7 +1018,7 @@ This has no impact on backward-compatibility, but it gives a stricter type for c
         <Path>source\Control Packets\DISCONNECT\Create DISCONNECT Packet.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>D58676A648AF399C990434766A543A2C</GUID>
+      <GUID>0E0085C3867B31272C9C0D5DF29CC003</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1057,7 +1053,7 @@ This has no impact on backward-compatibility, but it gives a stricter type for c
         <Path>source\Control Packets\PINGREQ\Create PINGREQ Packet.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>E971A48CD73D8B6DE1AFC4BA03478602</GUID>
+      <GUID>565E6EDB97D40EF3D9E85178BC02E224</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1092,7 +1088,7 @@ This has no impact on backward-compatibility, but it gives a stricter type for c
         <Path>source\Control Packets\PINGRESP\Create PINGRESP Packet.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>AE80B1DFE90F692F9A8AE5A33FDC1BCF</GUID>
+      <GUID>A1B8453BADB6791D1E142703AB89BBB5</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1127,7 +1123,7 @@ This has no impact on backward-compatibility, but it gives a stricter type for c
         <Path>source\Control Packets\PUBACK\Create PUBACK Packet.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>8AAA66742394E8A6F24AAC87D967D889</GUID>
+      <GUID>1A34A034C586D8169CCFD20FB8EAA0BF</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1162,7 +1158,7 @@ This has no impact on backward-compatibility, but it gives a stricter type for c
         <Path>source\Control Packets\PUBCOMP\Create PUBCOMP Packet.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>CD4302A2A7CA3B7273D4EB7EA087A7EE</GUID>
+      <GUID>1DEC21B1FBAE50E55EF9B9718D2C9DF6</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1267,7 +1263,7 @@ This has no impact on backward-compatibility, but it gives a stricter type for c
         <Path>source\Control Packets\PUBLISH\Convert Server Topic Filter Matching.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>DD0F30CAEAB7949108D15B659A651CB6</GUID>
+      <GUID>1D385A8FE70862F2681D22949B21C593</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1302,7 +1298,7 @@ This has no impact on backward-compatibility, but it gives a stricter type for c
         <Path>source\Control Packets\PUBREC\Create PUBREC Packet.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>F6706E72510A136DDE27D5A73DE6B110</GUID>
+      <GUID>BF0A5A5B8DAB2C33BE8053CBA2982E34</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1351,7 +1347,7 @@ This has no impact on backward-compatibility, but it gives a stricter type for c
         <Path>source\Control Packets\PUBREL\getFlags.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>4AA6A57E09457FCBAD992B36BABA00F3</GUID>
+      <GUID>8279DD6949A21CA6F7FA59931D4AA498</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1428,7 +1424,7 @@ This has no impact on backward-compatibility, but it gives a stricter type for c
         <Path>source\Control Packets\SUBACK\getReturnCodes.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>C1168A0D2B4A709A101DC0A391A34A02</GUID>
+      <GUID>0C0F8CFB115EBFAEA37F58CE59EEDBC6</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1533,7 +1529,7 @@ This has no impact on backward-compatibility, but it gives a stricter type for c
         <Path>source\Control Packets\SUBSCRIBE\getFlags.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>2F97E13F8307492B7491E2E7EC969435</GUID>
+      <GUID>18475FD0201DA030F34C4913F9795121</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1568,7 +1564,7 @@ This has no impact on backward-compatibility, but it gives a stricter type for c
         <Path>source\Control Packets\UNSUBACK\Create UNSUBACK Packet.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>C321C8B58E81447B733DFE806A8BD699</GUID>
+      <GUID>0B5D0D7820E24F44B2F2776F3237CDE5</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1659,7 +1655,7 @@ This has no impact on backward-compatibility, but it gives a stricter type for c
         <Path>source\Control Packets\UNSUBSCRIBE\getTopicSubscriptions.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>38D536BD9402CE29CE80875F42338920</GUID>
+      <GUID>8FC998AAD708BF106480528ADE8CD81C</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
