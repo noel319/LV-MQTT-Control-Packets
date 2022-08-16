@@ -5,6 +5,10 @@
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Property Name="NI.SortType" Type="Int">3</Property>
+	<Item Name="Properties" Type="Folder">
+		<Item Name="Property Identifier -- ring.ctl" Type="VI" URL="../ControlPacket/Property Identifier -- ring.ctl"/>
+	</Item>
 	<Item Name="MQTTVersion50.lvclass" Type="LVClass" URL="../MQTT_50/MQTTVersion50.lvclass"/>
 	<Item Name="AUTH.lvclass" Type="LVClass" URL="../AUTH/AUTH.lvclass"/>
+	<Item Name="CONNECT_50.lvclass" Type="LVClass" URL="../CONNECT_50/CONNECT_50.lvclass"/>
 </Library>
