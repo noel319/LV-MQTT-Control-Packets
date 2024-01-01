@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2019-04-01 18:34:00" Modified_Date="2024-01-01 09:39:41" Creator="normandinf" Comments="" ID="534a702e52ca5ff1b0f898660458c476">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2019-04-01 18:34:00" Modified_Date="2024-01-01 09:41:53" Creator="normandinf" Comments="" ID="99869629b4ff72a077cd1161deead031">
   <Library_General_Settings>
     <Package_File_Name>LabVIEW_Open_Source_Project_lib_MQTT_Control_Packets</Package_File_Name>
-    <Library_Version>3.2.0.12</Library_Version>
+    <Library_Version>3.2.0.13</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>source</Library_Source_Folder>
     <Library_Output_Folder>.</Library_Output_Folder>
