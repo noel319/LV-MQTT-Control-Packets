@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2019-04-01 18:34:00" Modified_Date="2024-01-01 09:41:53" Creator="normandinf" Comments="" ID="99869629b4ff72a077cd1161deead031">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2019-04-01 18:34:00" Modified_Date="2024-01-01 19:36:01" Creator="normandinf" Comments="" ID="2a87cd397a0495859f2d05aae6072bcb">
   <Library_General_Settings>
     <Package_File_Name>LabVIEW_Open_Source_Project_lib_MQTT_Control_Packets</Package_File_Name>
-    <Library_Version>3.2.0.13</Library_Version>
+    <Library_Version>3.2.0.14</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>source</Library_Source_Folder>
     <Library_Output_Folder>.</Library_Output_Folder>
@@ -42,7 +42,8 @@ These classes can be used as the basis for client and server by providing a clea
       <Copyright/>
       <Packager/>
       <URL>https://github.com/LabVIEW-Open-Source/LV-MQTT-Control-Packets</URL>
-      <Release_Notes>[Fix: 5] Exposed the "Has Packet Identifier" publicly</Release_Notes>
+      <Release_Notes>[Fix: 5] Exposed the "Has Packet Identifier" publicly
+[Fix: 6] PacketIdentifier should never roll back to 0x0000</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -557,7 +558,7 @@ These classes can be used as the basis for client and server by providing a clea
         <Path>source\Examples\Example_Local MQTT Communication.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>7EB1DCBC7BFC2E57DF677200D3E686A7</GUID>
+      <GUID>EAF92A4D1DE83A9112AA3C028EA580F8</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -620,7 +621,7 @@ These classes can be used as the basis for client and server by providing a clea
         <Path>source\Control Packets\CONNACK\Read Session Present.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>4BB6916FC02FD193DBF6C7C5EFD57DED</GUID>
+      <GUID>52F7065FBA59C7ECB15DFE2EEB704B03</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -753,7 +754,7 @@ These classes can be used as the basis for client and server by providing a clea
         <Path>source\Control Packets\CONNECT\getConnectFlags.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>F01036B5441192C64C68A75FE48A2898</GUID>
+      <GUID>8B9EBF7CFF8A976F25B35E5CF5B2174D</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -984,7 +985,7 @@ These classes can be used as the basis for client and server by providing a clea
         <Path>source\Control Packets\ControlPacket\Generate ID.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>0D526277B60166912B4F12B1DBD97917</GUID>
+      <GUID>318C6A8F2A2A2C257ABAC79ECE10F8EB</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1019,7 +1020,7 @@ These classes can be used as the basis for client and server by providing a clea
         <Path>source\Control Packets\DISCONNECT\Create DISCONNECT Packet.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>75E8E8E97A68A248B2FE1550A3BBD961</GUID>
+      <GUID>1FB3576218F84CD5E21BCA335CC80DD0</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1054,7 +1055,7 @@ These classes can be used as the basis for client and server by providing a clea
         <Path>source\Control Packets\PINGREQ\Create PINGREQ Packet.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>32D800DB643D86CAC77B10481B91B2AA</GUID>
+      <GUID>140CF63406375B95D1E2BB2FA3CA9ED6</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1089,7 +1090,7 @@ These classes can be used as the basis for client and server by providing a clea
         <Path>source\Control Packets\PINGRESP\Create PINGRESP Packet.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>2725D9B0A0B7FB0987C433B1949CEB5A</GUID>
+      <GUID>850CDEE4CA4A85C4ED439F1BB195C1BF</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1124,7 +1125,7 @@ These classes can be used as the basis for client and server by providing a clea
         <Path>source\Control Packets\PUBACK\Create PUBACK Packet.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>9F598F1F2C944C4EC8CDD3234BAE3758</GUID>
+      <GUID>337E018D017F8A8E40AF9793A2F89000</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1159,7 +1160,7 @@ These classes can be used as the basis for client and server by providing a clea
         <Path>source\Control Packets\PUBCOMP\Create PUBCOMP Packet.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>BDFBB7F7DD08A8578255B5D5C6573DAA</GUID>
+      <GUID>F08F73EFA057D8EC9C4FCAD98F75C91A</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1264,7 +1265,7 @@ These classes can be used as the basis for client and server by providing a clea
         <Path>source\Control Packets\PUBLISH\Convert Server Topic Filter Matching.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>489AB63935C0070C82EB679FEF22F23F</GUID>
+      <GUID>6E1D3CB396C6766A97816699F9BC1466</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1299,7 +1300,7 @@ These classes can be used as the basis for client and server by providing a clea
         <Path>source\Control Packets\PUBREC\Create PUBREC Packet.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>421509085F9C52EE6DF8A420790CF5BB</GUID>
+      <GUID>AC591218D83D814EA34C42E483DB8B4C</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1348,7 +1349,7 @@ These classes can be used as the basis for client and server by providing a clea
         <Path>source\Control Packets\PUBREL\getFlags.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>9CDFFB7411C8A1EE3CE13170B1F9BA18</GUID>
+      <GUID>D742229668309AD53C77D725B3ED5C32</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1425,7 +1426,7 @@ These classes can be used as the basis for client and server by providing a clea
         <Path>source\Control Packets\SUBACK\getReturnCodes.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>DC9A58A77B8405C37F940C4EF4B58BA6</GUID>
+      <GUID>0E5330D123C4148CEF7D1FFE3F50EBD8</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1530,7 +1531,7 @@ These classes can be used as the basis for client and server by providing a clea
         <Path>source\Control Packets\SUBSCRIBE\getFlags.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>EC755E7D5661C2EFFDAEE4C3E7CC61D2</GUID>
+      <GUID>7F6897B91A14BF7A46C60F65459BBF98</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1565,7 +1566,7 @@ These classes can be used as the basis for client and server by providing a clea
         <Path>source\Control Packets\UNSUBACK\Create UNSUBACK Packet.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>CB33B8663789A36A6D9ECFF1CB3A3BF1</GUID>
+      <GUID>52337FAD66765B787FDA8F79E9A0973E</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1656,7 +1657,7 @@ These classes can be used as the basis for client and server by providing a clea
         <Path>source\Control Packets\UNSUBSCRIBE\getTopicSubscriptions.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>7D8FA91DE336251ECA4710D32E46C591</GUID>
+      <GUID>86FD539E405975198CC3872EABF80F57</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
